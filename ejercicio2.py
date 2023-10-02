@@ -33,3 +33,11 @@ def imprimir_dos_veces(estribillo :str) -> None :
     print(estribillo*2)
 
 imprimir_dos_veces("HOLA")
+
+#5. problema es multiplo de (in n: Z, in m:Z) : Bool {
+#requiere: {m ̸ = 0}
+#asegura: {(res = true) ↔ (existe un k ∈ Z tal que n = m × k)}
+#}
+
+def es_multiplo_de(n :int ,m :int) ->bool:
+    return (n % m == 0)
