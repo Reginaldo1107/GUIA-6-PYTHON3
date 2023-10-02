@@ -11,3 +11,8 @@ def imprimirEjercicio()->None:
 def imprimir_un_verso() -> None :
     verso = "Hola\nComo\nestas"
     print(verso)
+#3. raizDe2() : 
+# que devuelva la raı́z cuadrada de 2 con 4
+#  #decimales. Ver función round
+def raizDe2() -> float :
+    return round(math.sqrt(2),4)
