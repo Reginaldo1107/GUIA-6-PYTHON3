@@ -8,3 +8,10 @@ def imprimir_saludo (nombre : str) ->None:
 
 
 imprimir_saludo("NALDO")
+
+#2. raiz cuadrada de(numero) : 
+# que devuelva la raı́z cuadrada del número.
+
+def raiz_cuadrada_de(numero : int) -> float:
+    return math.sqrt(numero)
+
