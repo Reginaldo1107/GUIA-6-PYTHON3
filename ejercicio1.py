@@ -4,3 +4,10 @@
 #}
 def imprimirEjercicio()->None:
     print("hola mundo ")
+
+#2. imprimir un verso() : que imprima un verso de una canción que vos elijas,
+#respetando los saltos de lı́nea mediante el
+#caracter ‘\n´.
+def imprimir_un_verso() -> None :
+    verso = "Hola\nComo\nestas"
+    print(verso)
