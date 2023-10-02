@@ -41,3 +41,16 @@ imprimir_dos_veces("HOLA")
 
 def es_multiplo_de(n :int ,m :int) ->bool:
     return (n % m == 0)
+
+
+#7. cantidad de pizzas(comensales, min cant de porciones) 
+#que devuelva la cantidad de pizzas que necesitamos para
+#que cada comensal coma como mı́nimo min cant de porciones 
+#porciones de pizza. Considere que cada pizza tiene 8
+#porciones y que se preere que sobren porciones.
+
+def cantidadDePizzas (comensales :int , min_cantidad_de_porciones : int) -> int :
+    
+    totalPizzas :int = comensales * min_cantidad_de_porciones 
+    return math.ceil(totalPizzas/8)
+    
