@@ -23,3 +23,13 @@ def raiz_cuadrada_de(numero : int) -> float:
 #}
 def fahrenheit_a_celsius(temperatura : float ) -> float :
     return ((temperatura -32)*5 )/9
+    
+# 4. imprimir dos veces(estribillo) : que imprima dos veces el 
+#estribillo de una canción. Nota: Analizar el comporta-
+# miento del operador (*) con strings.
+
+def imprimir_dos_veces(estribillo :str) -> None :
+    estribillo = estribillo + ' '
+    print(estribillo*2)
+
+imprimir_dos_veces("HOLA")
