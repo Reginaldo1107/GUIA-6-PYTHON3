@@ -16,3 +16,23 @@ def imprimir_un_verso() -> None :
 #  #decimales. Ver función round
 def raizDe2() -> float :
     return round(math.sqrt(2),4)
+
+
+#4. factorial_de_dos()
+#problema factorial 2 () : Z {
+#requiere: { True }
+#asegura: {res = 2!}
+#}
+
+def factorial_de_dos() -> int:
+    return 2
+
+#5. perimetro : que devuelva el perı́metro de la circunferencia de 
+#radio 1. Utilizar la biblioteca math mediante el comando
+#import math y la constante math.pi
+#problema perimetro () : R {
+#requiere: { True }
+#asegura: {res = 2 × π }
+#}
+def perimetro () ->float:
+    return round(2 * math.pi,4)
