@@ -67,3 +67,4 @@ def maquinaDelTiempo_con_Aristoteles(añoActual :int  ) -> None:
         añoActual-=20
 
 
+maquinaDelTiempo_con_Aristoteles(42)
